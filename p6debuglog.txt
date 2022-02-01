@@ -1,4 +1,5 @@
- gcc -g p5original.c
+
+ gcc -g p6original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -20,15 +21,8 @@ Undefined command: "bmain".  Try "help".
 (gdb) r
 Starting program: /home/runner/pps-IA1-practice/a.out 
 warning: Error disabling address space randomization: Operation not permitted
-enter a number=
-5
-square root of 5=2
-[Inferior 1 (process 479) exited normally]
-(gdb) r
-Starting program: /home/runner/pps-IA1-practice/a.out 
-warning: Error disabling address space randomization: Operation not permitted
-enter a number=
-36
-square root of 36=6
-[Inferior 1 (process 483) exited normally]
-(gdb) 
+enter any word:
+hello world
+enter any word:
+world is greater than hello
+[Inferior 1 (process 161) exited normally]
